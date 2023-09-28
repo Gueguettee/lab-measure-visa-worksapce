@@ -1,0 +1,11 @@
+pip install numpy
+pip install pyvisa
+pip install matplotlib
+pip install pandas
+
+Utilisation d'un environnement virtuel :  
+>python -m venv .venv  
+.venv\Scripts\activate  
+pip install ...
+
+>deactivate
