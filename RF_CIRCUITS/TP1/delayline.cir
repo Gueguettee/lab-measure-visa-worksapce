@@ -1,0 +1,8 @@
+* delay line model
+T1 a 0 b 0 Td=+253.2E-09 Z0=50
+V1 a 0 PWL file=delayline_trace1.txt
+V2 b_meas 0 PWL file=delayline_trace2.txt
+Rl 0 b 75.67376321342265
+.tran 9e-07
+.backanno
+.end
