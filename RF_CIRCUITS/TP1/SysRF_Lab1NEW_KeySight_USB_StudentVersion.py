@@ -52,7 +52,7 @@ mso.write(":TRIG:LEV 0.25")
 
 ### DELAY MEASUREMENT settings
 time.sleep(3)
-mso.write(":DIGitize")
+mso.write(":DIGitize")  # stop run
 mso.write(":MEASure:DELay CHANnel1,CHANnel2")
 mso.write(":MEASure:DEFine DELay,+1,+1")
 mso.write(":MEASure:DELay?")
